@@ -1,0 +1,30 @@
+{
+  "name": "dia-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "npm run build && node ./Build/index.js",
+    "dev": "tsnd index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "http-status-codes": "^2.2.0",
+    "mysql2": "^2.3.3",
+    "tsc": "^2.0.4",
+    "typescript": "^4.6.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.32",
+    "nodemon": "^2.0.16",
+    "ts-node-dev": "^1.1.8"
+  }
+}
